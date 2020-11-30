@@ -13,6 +13,6 @@ public class ConcreteDecorator extends Decorator {
     @Override
     public void doSomething() {
         System.out.println("concrete decorator do something");
-        getComponent().doSomething();
+        super.doSomething();
     }
 }

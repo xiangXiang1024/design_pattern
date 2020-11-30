@@ -12,7 +12,8 @@ public abstract class Decorator extends Component {
         this.component = component;
     }
 
-    public Component getComponent() {
-        return component;
+    @Override
+    public void doSomething() {
+        component.doSomething();
     }
 }
