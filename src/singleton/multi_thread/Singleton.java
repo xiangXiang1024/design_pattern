@@ -2,7 +2,6 @@ package singleton.multi_thread;
 
 /**
  * @author: xiang
- * TODO
  * @date: 2020/11/27
  * @description:
  */

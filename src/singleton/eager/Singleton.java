@@ -2,7 +2,6 @@ package singleton.eager;
 
 /**
  * @author: xiang
- * TODO
  * @date: 2020/11/26
  * @description:
  */
