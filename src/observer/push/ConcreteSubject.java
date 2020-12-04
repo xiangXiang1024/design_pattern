@@ -9,15 +9,11 @@ import java.util.List;
  * @description:
  */
 public class ConcreteSubject implements Subject {
-    private String content;
+    private Info info;
     private List<Observer> observerList = new ArrayList<>();
 
-    public String getContent() {
-        return content;
-    }
-
-    public void setContent(String content) {
-        this.content = content;
+    public void setContent(Info info) {
+        this.info = info;
         notifyAllObservers();
         observerList.iterator();
     }
@@ -25,7 +21,7 @@ public class ConcreteSubject implements Subject {
     @Override
     public void notifyAllObservers() {
         for(Observer o : observerList) {
-            o.update(content);
+            o.update(info);
         }
     }
 

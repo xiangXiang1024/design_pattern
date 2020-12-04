@@ -6,5 +6,5 @@ package observer.push;
  * @description:
  */
 public interface Observer {
-    void update(String content);
+    void update(Info info);
 }
