@@ -16,8 +16,6 @@ public class Client {
             while ((c = in.read()) >= 0) {
                 System.out.print((char)c);
             }
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
