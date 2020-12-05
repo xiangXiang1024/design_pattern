@@ -12,9 +12,9 @@ public class Data extends Observable {
     private String data2;
 
     public void setData(String data1, String data2) {
-        setChanged();
         this.data1 = data1;
         this.data2 = data2;
+        setChanged();
         notifyObservers();
     }
 
